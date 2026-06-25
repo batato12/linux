@@ -1,0 +1,13 @@
+```
+# Build artifacts and logs
+*.log
+aether-os/build-*.log
+aether-os/wget-log*
+
+# Root filesystem build output (assuming generated content)
+aether-os/rootfs/
+
+# Backup scripts
+*.backup
+
+```
